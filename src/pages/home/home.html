@@ -1,0 +1,62 @@
+<ion-header>
+  <ion-navbar  color="primary">
+      <button ion-button icon-only menuToggle>
+          <ion-icon name="menu"></ion-icon>
+        </button>
+    <ion-title>
+      BuSchool
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-menu [content]="mycontent" side="start" menuId="first">
+    <ion-header>
+        <ion-toolbar color="primary">
+          <ion-title>Menu</ion-title>
+        </ion-toolbar>
+      </ion-header>
+    <ion-content >
+      <ion-list no-lines>
+          <button ion-item (click)="cadastrar()">
+              <ion-icon name="add" item-start></ion-icon>
+              Cadastrar
+            </button>
+            <button ion-item >
+                <ion-icon name="compass" item-start></ion-icon>
+                Rotas
+              </button>
+              <button ion-item >
+                  <ion-icon name="book" item-start></ion-icon>
+                  Relatórios
+                </button>
+                <button ion-item (click)="signOut()">
+                    <ion-icon name="exit" item-start></ion-icon>
+                    Sair
+                  </button>
+      </ion-list>
+    </ion-content>
+  </ion-menu>        
+  <ion-nav #mycontent [root]="rootPage"></ion-nav>
+
+
+<ion-content padding>
+
+    <ion-grid>
+        <ion-row>
+          <ion-col>
+            <div>
+                <button ion-button block color="light" (click)="cadastrar()">
+                  Alunos
+                </button>
+            </div>
+          </ion-col>
+          <ion-col>
+            <div>
+                <button ion-button block color="light" >
+                    Rotas
+                  </button>
+            </div>
+          </ion-col>
+        </ion-row>
+
+

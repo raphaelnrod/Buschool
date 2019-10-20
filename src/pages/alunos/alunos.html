@@ -1,0 +1,74 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>{{ title }}</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <form [formGroup]="form">
+    <ion-item>
+      <ion-label stacked>Nome</ion-label>
+      <ion-input type="text" formControlName="name"></ion-input>
+    </ion-item>
+    <ion-item *ngIf="!form.controls.name.valid && (form.controls.name.dirty || form.controls.name.touched)" color="danger">
+      <div [hidden]="!form.controls.name.errors.required"> O Campo é obrigatório </div>
+    </ion-item>
+
+    <ion-item>
+      <ion-label stacked>Endereço</ion-label>
+      <ion-input type="text" formControlName="endereco"></ion-input>
+    </ion-item>
+    <ion-item *ngIf="!form.controls.endereco.valid && (form.controls.endereco.dirty || form.controls.endereco.touched)" color="danger">
+      <div [hidden]="!form.controls.endereco.errors.required"> O Campo é obrigatório </div>
+    </ion-item>
+
+    <ion-item>
+      <ion-label stacked>CPF ou RG</ion-label>
+      <ion-input type="numeric" maxlenght="11" formControlName="cpfRG"></ion-input>
+    </ion-item>
+    <ion-item *ngIf="!form.controls.cpfRG.valid && (form.controls.cpfRG.dirty || form.controls.cpfRG.touched)" color="danger">
+      <div [hidden]="!form.controls.cpfRG.errors.required"> O Campo é obrigatório </div>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Data de Nascimento</ion-label>
+      <ion-datetime formControlName="nascimento" value="2010-02-19" placeholder="Selecione a data"></ion-datetime>
+    </ion-item>
+
+    <ion-item>
+      <ion-label stacked>Nome do Responsável</ion-label>
+      <ion-input type="text" formControlName="nomeResp"></ion-input>
+    </ion-item>
+    <ion-item *ngIf="!form.controls.nomeResp.valid && (form.controls.nomeResp.dirty || form.controls.nomeResp.touched)" color="danger">
+      <div [hidden]="!form.controls.nomeResp.errors.required"> O Campo é obrigatório </div>
+    </ion-item>
+
+    <ion-item>
+      <ion-label stacked>Telefone do Responsável</ion-label>
+      <ion-input type="tel" formControlName="telResp"></ion-input>
+    </ion-item>
+    <ion-item *ngIf="!form.controls.telResp.valid && (form.controls.telResp.dirty || form.controls.telResp.touched)" color="danger">
+      <div [hidden]="!form.controls.telResp.errors.required"> O Campo é obrigatório </div>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Escola</ion-label>
+      <ion-select formControlName="escola" interface="popover">
+        <ion-select-option value="escola1">Escola 1</ion-select-option>
+        <ion-select-option value="escola2">Escola 2</ion-select-option>
+        <ion-select-option value="escola3">Escola 3</ion-select-option>
+        <ion-select-option value="escola4">Escola 4</ion-select-option>
+        <ion-select-option value="escola5">Escola 5</ion-select-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-item>
+      <ion-label stacked>Observações</ion-label>
+      <ion-input type="text" formControlName="observacoes"></ion-input>
+    </ion-item>
+
+    <div padding>
+      <button ion-button block type="submit" [disabled]="!form.valid" (click)="onSubmit()">Salvar</button>
+    </div>
+  </form>
+</ion-content>
