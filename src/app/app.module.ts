@@ -14,13 +14,19 @@ import { AlunosProvider } from '../providers/alunos/alunos';
 import { AuthProvider } from '../providers/auth/auth';
 import { LoginPage } from '../pages/login/login';
 import { ResetpassPage } from '../pages/resetpass/resetpass';
+import { SearchPipe } from '../pipes/search/search';
+import { SortPipe } from '../pipes/sort/sort';
+import { ModalAlunoPage } from '../pages/modal-aluno/modal-aluno';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     LoginPage,
-    ResetpassPage
+    ResetpassPage,
+    SearchPipe,
+    SortPipe,
+    ModalAlunoPage
   ],
   imports: [
     BrowserModule,
@@ -42,7 +48,8 @@ import { ResetpassPage } from '../pages/resetpass/resetpass';
     MyApp,
     HomePage,
     LoginPage,
-    ResetpassPage
+    ResetpassPage,
+    ModalAlunoPage
   ],
   providers: [
     StatusBar,

@@ -43,22 +43,22 @@
       <div [hidden]="!form.controls.nomeResp.errors.required"> O Campo é obrigatório </div>
     </ion-item>
 
-    <ion-item>
-      <ion-label stacked>Telefone do Responsável</ion-label>
-      <ion-input type="tel" formControlName="telResp"></ion-input>
+    <!-- <ion-item>
+      <ion-label stacked>Telefone Responsável</ion-label>
+      <ion-input type="numeric" maxlenght="11" formControlName="telResp"></ion-input>
     </ion-item>
     <ion-item *ngIf="!form.controls.telResp.valid && (form.controls.telResp.dirty || form.controls.telResp.touched)" color="danger">
       <div [hidden]="!form.controls.telResp.errors.required"> O Campo é obrigatório </div>
-    </ion-item>
+    </ion-item> -->
 
     <ion-item>
       <ion-label>Escola</ion-label>
       <ion-select formControlName="escola" interface="popover">
-        <ion-select-option value="escola1">Escola 1</ion-select-option>
-        <ion-select-option value="escola2">Escola 2</ion-select-option>
-        <ion-select-option value="escola3">Escola 3</ion-select-option>
-        <ion-select-option value="escola4">Escola 4</ion-select-option>
-        <ion-select-option value="escola5">Escola 5</ion-select-option>
+        <ion-option value="escola1">Escola1</ion-option>
+        <ion-option value="escola2">Escola2</ion-option>
+        <ion-option value="escola3">Escola3</ion-option>
+        <ion-option value="escola4">Escola4</ion-option>
+        <ion-option value="escola5">Escola5</ion-option>
       </ion-select>
     </ion-item>
 

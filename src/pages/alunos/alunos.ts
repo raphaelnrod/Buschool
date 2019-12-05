@@ -37,7 +37,7 @@ export class AlunosPage {
       cpfRG: [this.aluno.cpfRG, Validators.required],
       nascimento: [this.aluno.nascimento, Validators.required],
       nomeResp: [this.aluno.nomeResp, Validators.required],
-      telefoneResp: [this.aluno.telefoneResp, Validators.required],
+      //telResp: [this.aluno.telResp, Validators.required],
       escola: [this.aluno.escola, Validators.required],
       observacoes: [this.aluno.observacoes]
     })

@@ -6,8 +6,12 @@
 
 <ion-content padding>
 
+    <ion-content class="home">
+        <ion-searchbar [(ngModel)]="terms"></ion-searchbar>
+        <button ion-button type="button" (click)="sort()">Classificar</button>
+
     <ion-list>
-        <ion-item-sliding *ngFor="let aluno of alunos | async">
+        <ion-item-sliding (click)="openModal(aluno.key)" *ngFor="let aluno of alunos | async">
           <ion-item>
             <h1>{{ aluno.name }}</h1>
             <p>{{ aluno.escola }}</p>

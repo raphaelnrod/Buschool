@@ -1,0 +1,21 @@
+<ion-header>
+    <ion-toolbar>
+      <ion-title>
+        Detalhes Aluno
+      </ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content>
+    <ion-list>
+        <ion-item>
+          <h2>Nome: {{aluno.name}}</h2>
+          <p>CPF ou RG: {{aluno.cpf}}</p>
+          <p>Data de Nascimento: {{aluno.nascimento}}</p>
+          <p>Endereço: {{aluno.endereco}}</p>
+          <p>Nome do Responsável: {{aluno.nomeResp}}</p>
+          <p>Escola: {{aluno.escola}}</p>
+          <p>Observações: {{aluno.observacao}}</p>
+        </ion-item>
+        <button ion-button block (click)="dismiss()">Cancelar
+          </button>

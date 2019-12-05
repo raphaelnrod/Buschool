@@ -32,12 +32,18 @@ export class AlunosProvider {
       if(aluno.key){
         this.db.list(this.PATH)
         .update(aluno.key, {
-          name: aluno.name, tel: aluno.tel})
+          name: aluno.name, endereco: aluno.endereco,
+          cpfRG: aluno.cpfRG, nascimento: aluno.nascimento,
+          nomeResp: aluno.nomeResp, escola: aluno.escola,
+          observacoes: aluno.observacoes})
           .then(() => resolve())
           .catch((e) => reject(e));
       } else {
         this.db.list(this.PATH)
-        .push({name: aluno.name, tel: aluno.tel})
+        .push({name: aluno.name, endereco: aluno.endereco,
+          cpfRG: aluno.cpfRG, nascimento: aluno.nascimento,
+          nomeResp: aluno.nomeResp, escola: aluno.escola,
+          observacoes: aluno.observacoes})
           .then(() => resolve());
       }
     });
