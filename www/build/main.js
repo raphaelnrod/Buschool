@@ -253,11 +253,11 @@ var map = {
 		0
 	],
 	"../pages/login/login.module": [
-		456,
+		455,
 		4
 	],
 	"../pages/modal-aluno/modal-aluno.module": [
-		455,
+		456,
 		3
 	],
 	"../pages/resetpass/resetpass.module": [
@@ -421,8 +421,8 @@ var AppModule = /** @class */ (function () {
                     links: [
                         { loadChildren: '../pages/alunos/alunos.module#AlunosPageModule', name: 'AlunosPage', segment: 'alunos', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/cadastrar/cadastrar.module#CadastrarPageModule', name: 'CadastrarPage', segment: 'cadastrar', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/modal-aluno/modal-aluno.module#ModalAlunoPageModule', name: 'ModalAlunoPage', segment: 'modal-aluno', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/login/login.module#LoginPageModule', name: 'LoginPage', segment: 'login', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/modal-aluno/modal-aluno.module#ModalAlunoPageModule', name: 'ModalAlunoPage', segment: 'modal-aluno', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/resetpass/resetpass.module#ResetpassPageModule', name: 'ResetpassPage', segment: 'resetpass', priority: 'low', defaultHistory: [] }
                     ]
                 }),
