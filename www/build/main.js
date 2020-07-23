@@ -84,7 +84,7 @@ var HomePage = /** @class */ (function () {
     };
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-home',template:/*ion-inline-start:"D:\Projeto TCC\BuSchool\src\pages\home\home.html"*/'<ion-header>\n  <ion-navbar  color="primary">\n      <button ion-button icon-only menuToggle>\n          <ion-icon name="menu"></ion-icon>\n        </button>\n    <ion-title>\n      BuSchool\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-menu [content]="mycontent" side="start" menuId="first">\n    <ion-header>\n        <ion-toolbar color="primary">\n          <ion-title>Menu</ion-title>\n        </ion-toolbar>\n      </ion-header>\n    <ion-content >\n      <ion-list no-lines>\n          <button ion-item (click)="cadastrar()">\n              <ion-icon name="add" item-start></ion-icon>\n              Cadastrar\n            </button>\n            <button ion-item >\n                <ion-icon name="compass" item-start></ion-icon>\n                Rotas\n              </button>\n              <button ion-item >\n                  <ion-icon name="book" item-start></ion-icon>\n                  Relatórios\n                </button>\n                <button ion-item (click)="signOut()">\n                    <ion-icon name="exit" item-start></ion-icon>\n                    Sair\n                  </button>\n      </ion-list>\n    </ion-content>\n  </ion-menu>        \n  <ion-nav #mycontent [root]="rootPage"></ion-nav>\n\n\n<ion-content padding>\n\n    <ion-grid>\n        <ion-row>\n          <ion-col>\n            <div>\n                <button ion-button block color="light" (click)="cadastrar()">\n                  Alunos\n                </button>\n            </div>\n          </ion-col>\n          <ion-col>\n            <div>\n                <button ion-button block color="light" >\n                    Rotas\n                  </button>\n            </div>\n          </ion-col>\n        </ion-row>\n\n\n'/*ion-inline-end:"D:\Projeto TCC\BuSchool\src\pages\home\home.html"*/
+            selector: 'page-home',template:/*ion-inline-start:"D:\Projetos\Buschool\src\pages\home\home.html"*/'<ion-header>\n\n  <ion-navbar  color="primary">\n\n      <button ion-button icon-only menuToggle>\n\n          <ion-icon name="menu"></ion-icon>\n\n        </button>\n\n    <ion-title>\n\n      BuSchool\n\n    </ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-menu [content]="mycontent" side="start" menuId="first">\n\n    <ion-header>\n\n        <ion-toolbar color="primary">\n\n          <ion-title>Menu</ion-title>\n\n        </ion-toolbar>\n\n      </ion-header>\n\n    <ion-content >\n\n      <ion-list no-lines>\n\n          <button ion-item (click)="cadastrar()">\n\n              <ion-icon name="add" item-start></ion-icon>\n\n              Cadastrar\n\n            </button>\n\n            <button ion-item >\n\n                <ion-icon name="compass" item-start></ion-icon>\n\n                Rotas\n\n              </button>\n\n              <button ion-item >\n\n                  <ion-icon name="book" item-start></ion-icon>\n\n                  Relatórios\n\n                </button>\n\n                <button ion-item (click)="signOut()">\n\n                    <ion-icon name="exit" item-start></ion-icon>\n\n                    Sair\n\n                  </button>\n\n      </ion-list>\n\n    </ion-content>\n\n  </ion-menu>        \n\n  <ion-nav #mycontent [root]="rootPage"></ion-nav>\n\n\n\n\n\n<ion-content padding>\n\n\n\n    <ion-grid>\n\n        <ion-row>\n\n          <ion-col>\n\n            <div>\n\n                <button ion-button block color="light" (click)="cadastrar()">\n\n                  Alunos\n\n                </button>\n\n            </div>\n\n          </ion-col>\n\n          <ion-col>\n\n            <div>\n\n                <button ion-button block color="light" >\n\n                    Rotas\n\n                  </button>\n\n            </div>\n\n          </ion-col>\n\n        </ion-row>\n\n\n\n\n\n'/*ion-inline-end:"D:\Projetos\Buschool\src\pages\home\home.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* MenuController */], __WEBPACK_IMPORTED_MODULE_2__providers_auth_auth__["a" /* AuthProvider */]])
     ], HomePage);
@@ -212,7 +212,7 @@ var ResetpassPage = /** @class */ (function () {
     };
     ResetpassPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-resetpass',template:/*ion-inline-start:"D:\Projeto TCC\BuSchool\src\pages\resetpass\resetpass.html"*/'<!--\n  Generated template for the ResetpassPage page.\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n  Ionic pages and navigation.\n-->\n<ion-header>\n  <ion-navbar>\n    <ion-title>Ainda nao implementado</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n\n</ion-content>\n'/*ion-inline-end:"D:\Projeto TCC\BuSchool\src\pages\resetpass\resetpass.html"*/,
+            selector: 'page-resetpass',template:/*ion-inline-start:"D:\Projetos\Buschool\src\pages\resetpass\resetpass.html"*/'<!--\n\n  Generated template for the ResetpassPage page.\n\n\n\n  See http://ionicframework.com/docs/components/#navigation for more info on\n\n  Ionic pages and navigation.\n\n-->\n\n<ion-header>\n\n  <ion-navbar>\n\n    <ion-title>Ainda nao implementado</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"D:\Projetos\Buschool\src\pages\resetpass\resetpass.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */]])
     ], ResetpassPage);
@@ -245,11 +245,11 @@ webpackEmptyAsyncContext.id = 148;
 
 var map = {
 	"../pages/alunos/alunos.module": [
-		454,
+		453,
 		1
 	],
 	"../pages/cadastrar/cadastrar.module": [
-		453,
+		454,
 		0
 	],
 	"../pages/login/login.module": [
@@ -257,11 +257,11 @@ var map = {
 		4
 	],
 	"../pages/modal-aluno/modal-aluno.module": [
-		457,
+		456,
 		3
 	],
 	"../pages/resetpass/resetpass.module": [
-		456,
+		457,
 		2
 	]
 };
@@ -328,7 +328,7 @@ var ModalAlunoPage = /** @class */ (function () {
     };
     ModalAlunoPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-modal-aluno',template:/*ion-inline-start:"D:\Projeto TCC\BuSchool\src\pages\modal-aluno\modal-aluno.html"*/'<ion-header>\n    <ion-toolbar>\n      <ion-title>\n        Detalhes Aluno\n      </ion-title>\n    </ion-toolbar>\n  </ion-header>\n  \n  <ion-content>\n    <ion-list>\n        <ion-item>\n          <h2>Nome: {{aluno.name}}</h2>\n          <p>CPF ou RG: {{aluno.cpf}}</p>\n          <p>Data de Nascimento: {{aluno.nascimento}}</p>\n          <p>Endereço: {{aluno.endereco}}</p>\n          <p>Nome do Responsável: {{aluno.nomeResp}}</p>\n          <p>Escola: {{aluno.escola}}</p>\n          <p>Observações: {{aluno.observacao}}</p>\n        </ion-item>\n        <button ion-button block (click)="dismiss()">Cancelar\n          </button>'/*ion-inline-end:"D:\Projeto TCC\BuSchool\src\pages\modal-aluno\modal-aluno.html"*/,
+            selector: 'page-modal-aluno',template:/*ion-inline-start:"D:\Projetos\Buschool\src\pages\modal-aluno\modal-aluno.html"*/'<ion-header>\n\n    <ion-toolbar>\n\n      <ion-title>\n\n        Detalhes Aluno\n\n      </ion-title>\n\n    </ion-toolbar>\n\n  </ion-header>\n\n  \n\n  <ion-content>\n\n    <ion-list>\n\n        <ion-item>\n\n          <h2>Nome: {{aluno.name}}</h2>\n\n          <p>CPF ou RG: {{aluno.cpf}}</p>\n\n          <p>Data de Nascimento: {{aluno.nascimento}}</p>\n\n          <p>Endereço: {{aluno.endereco}}</p>\n\n          <p>Nome do Responsável: {{aluno.nomeResp}}</p>\n\n          <p>Escola: {{aluno.escola}}</p>\n\n          <p>Observações: {{aluno.observacao}}</p>\n\n        </ion-item>\n\n        <button ion-button block (click)="dismiss()">Cancelar\n\n          </button>'/*ion-inline-end:"D:\Projetos\Buschool\src\pages\modal-aluno\modal-aluno.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* Platform */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */],
@@ -419,11 +419,11 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
                 __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_8__app_component__["a" /* MyApp */], {}, {
                     links: [
-                        { loadChildren: '../pages/cadastrar/cadastrar.module#CadastrarPageModule', name: 'CadastrarPage', segment: 'cadastrar', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/alunos/alunos.module#AlunosPageModule', name: 'AlunosPage', segment: 'alunos', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/cadastrar/cadastrar.module#CadastrarPageModule', name: 'CadastrarPage', segment: 'cadastrar', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/login/login.module#LoginPageModule', name: 'LoginPage', segment: 'login', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/resetpass/resetpass.module#ResetpassPageModule', name: 'ResetpassPage', segment: 'resetpass', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/modal-aluno/modal-aluno.module#ModalAlunoPageModule', name: 'ModalAlunoPage', segment: 'modal-aluno', priority: 'low', defaultHistory: [] }
+                        { loadChildren: '../pages/modal-aluno/modal-aluno.module#ModalAlunoPageModule', name: 'ModalAlunoPage', segment: 'modal-aluno', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/resetpass/resetpass.module#ResetpassPageModule', name: 'ResetpassPage', segment: 'resetpass', priority: 'low', defaultHistory: [] }
                     ]
                 }),
                 __WEBPACK_IMPORTED_MODULE_5_angularfire2__["a" /* AngularFireModule */].initializeApp({
@@ -548,7 +548,7 @@ var MyApp = /** @class */ (function () {
         });
     }
     MyApp = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"D:\Projeto TCC\BuSchool\src\app\app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"D:\Projeto TCC\BuSchool\src\app\app.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"D:\Projetos\Buschool\src\app\app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n\n'/*ion-inline-end:"D:\Projetos\Buschool\src\app\app.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */], __WEBPACK_IMPORTED_MODULE_5_angularfire2_auth__["a" /* AngularFireAuth */]])
     ], MyApp);
@@ -709,7 +709,7 @@ var LoginPage = /** @class */ (function () {
     ], LoginPage.prototype, "form", void 0);
     LoginPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-login',template:/*ion-inline-start:"D:\Projeto TCC\BuSchool\src\pages\login\login.html"*/'<ion-header>\n    <ion-navbar color="primary">\n      <ion-title>\n        Login BuSchool\n      </ion-title>\n    </ion-navbar>\n  </ion-header>\n  \n  \n  <ion-content padding>\n  \n    <form #form="ngForm" novalidate>\n      <ion-list>\n  \n        <ion-item>\n          <ion-label stacked>E-mail</ion-label>\n          <ion-input type="text" name="email" [(ngModel)]="user.email" #email="ngModel" required></ion-input>\n        </ion-item>\n        <ion-item *ngIf="email.errors && (email.dirty || email.touched)" class="text-danger">\n          O campo é obrigatório\n        </ion-item>\n  \n        <ion-item>\n          <ion-label stacked>Senha</ion-label>\n          <ion-input type="password" name="password" [(ngModel)]="user.password" #password="ngModel" required></ion-input>\n        </ion-item>\n        <ion-item *ngIf="password.errors && (password.dirty || password.touched)" class="text-danger">\n          O campo é obrigatório\n        </ion-item>\n  \n      </ion-list>\n  \n      <button ion-button block color="primary" [disabled]="!form.form.valid" (click)="signIn()">\n        Entrar\n      </button>\n    </form>\n  \n    <button ion-button block clear (click)="resetPass()">\n      Esqueci minha senha\n    </button>\n  \n  </ion-content>\n'/*ion-inline-end:"D:\Projeto TCC\BuSchool\src\pages\login\login.html"*/,
+            selector: 'page-login',template:/*ion-inline-start:"D:\Projetos\Buschool\src\pages\login\login.html"*/'<ion-header>\n\n    <ion-navbar color="primary">\n\n      <ion-title>\n\n        Login BuSchool\n\n      </ion-title>\n\n    </ion-navbar>\n\n  </ion-header>\n\n  \n\n  \n\n  <ion-content padding>\n\n  \n\n    <form #form="ngForm" novalidate>\n\n      <ion-list>\n\n  \n\n        <ion-item>\n\n          <ion-label stacked>E-mail</ion-label>\n\n          <ion-input type="text" name="email" [(ngModel)]="user.email" #email="ngModel" required></ion-input>\n\n        </ion-item>\n\n        <ion-item *ngIf="email.errors && (email.dirty || email.touched)" class="text-danger">\n\n          O campo é obrigatório\n\n        </ion-item>\n\n  \n\n        <ion-item>\n\n          <ion-label stacked>Senha</ion-label>\n\n          <ion-input type="password" name="password" [(ngModel)]="user.password" #password="ngModel" required></ion-input>\n\n        </ion-item>\n\n        <ion-item *ngIf="password.errors && (password.dirty || password.touched)" class="text-danger">\n\n          O campo é obrigatório\n\n        </ion-item>\n\n  \n\n      </ion-list>\n\n  \n\n      <button ion-button block color="primary" [disabled]="!form.form.valid" (click)="signIn()">\n\n        Entrar\n\n      </button>\n\n    </form>\n\n  \n\n    <button ion-button block clear (click)="resetPass()">\n\n      Esqueci minha senha\n\n    </button>\n\n  \n\n  </ion-content>\n\n'/*ion-inline-end:"D:\Projetos\Buschool\src\pages\login\login.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavParams */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* ToastController */], __WEBPACK_IMPORTED_MODULE_2__providers_auth_auth__["a" /* AuthProvider */]])

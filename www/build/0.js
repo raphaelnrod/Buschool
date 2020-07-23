@@ -1,6 +1,6 @@
 webpackJsonp([0],{
 
-/***/ 453:
+/***/ 454:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CadastrarPageModule", function() { return CadastrarPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(38);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__cadastrar__ = __webpack_require__(458);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__cadastrar__ = __webpack_require__(459);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -38,7 +38,7 @@ var CadastrarPageModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 458:
+/***/ 459:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -96,7 +96,7 @@ var CadastrarPage = /** @class */ (function () {
     };
     CadastrarPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-cadastrar',template:/*ion-inline-start:"D:\Projeto TCC\BuSchool\src\pages\cadastrar\cadastrar.html"*/'<ion-header>\n  <ion-navbar color="primary">\n    <ion-title>Alunos</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n\n    <ion-content class="home">\n        <ion-searchbar [(ngModel)]="terms"></ion-searchbar>\n        <button ion-button type="button" (click)="sort()">Classificar</button>\n\n    <ion-list>\n        <ion-item-sliding (click)="openModal(aluno.key)" *ngFor="let aluno of alunos | async">\n          <ion-item>\n            <h1>{{ aluno.name }}</h1>\n            <p>{{ aluno.escola }}</p>\n          </ion-item>\n          <ion-item-options side="left">\n            <button ion-button color="secondary" (click)="editAluno(aluno)">\n              <ion-icon name="create"></ion-icon>\n            </button>\n            <button ion-button color="danger" (click)="removeAluno(aluno.key)">\n              <ion-icon name="trash"></ion-icon>\n            </button>\n          </ion-item-options>\n        </ion-item-sliding>\n      </ion-list>  \n\n  <ion-fab bottom right>\n    <button ion-fab color="primary" (click)="newAluno()">\n      <ion-icon name="add"></ion-icon>\n    </button>\n  </ion-fab>\n\n</ion-content>\n'/*ion-inline-end:"D:\Projeto TCC\BuSchool\src\pages\cadastrar\cadastrar.html"*/,
+            selector: 'page-cadastrar',template:/*ion-inline-start:"D:\Projetos\Buschool\src\pages\cadastrar\cadastrar.html"*/'<ion-header>\n\n  <ion-navbar color="primary">\n\n    <ion-title>Alunos</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n\n\n    <ion-content class="home">\n\n        <ion-searchbar [(ngModel)]="terms"></ion-searchbar>\n\n        <button ion-button type="button" (click)="sort()">Classificar</button>\n\n\n\n    <ion-list>\n\n        <ion-item-sliding (click)="openModal(aluno.key)" *ngFor="let aluno of alunos | async">\n\n          <ion-item>\n\n            <h1>{{ aluno.name }}</h1>\n\n            <p>{{ aluno.escola }}</p>\n\n          </ion-item>\n\n          <ion-item-options side="left">\n\n            <button ion-button color="secondary" (click)="editAluno(aluno)">\n\n              <ion-icon name="create"></ion-icon>\n\n            </button>\n\n            <button ion-button color="danger" (click)="removeAluno(aluno.key)">\n\n              <ion-icon name="trash"></ion-icon>\n\n            </button>\n\n          </ion-item-options>\n\n        </ion-item-sliding>\n\n      </ion-list>  \n\n\n\n  <ion-fab bottom right>\n\n    <button ion-fab color="primary" (click)="newAluno()">\n\n      <ion-icon name="add"></ion-icon>\n\n    </button>\n\n  </ion-fab>\n\n\n\n</ion-content>\n\n'/*ion-inline-end:"D:\Projetos\Buschool\src\pages\cadastrar\cadastrar.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */], __WEBPACK_IMPORTED_MODULE_2__providers_alunos_alunos__["a" /* AlunosProvider */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* ToastController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* ModalController */]])
